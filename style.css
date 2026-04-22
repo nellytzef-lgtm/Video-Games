@@ -20,3 +20,13 @@ p{
 font-size:18px;
 text-align:center;
 }
+
+<div class="images-container">
+</div>
+.images-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0;
+}
